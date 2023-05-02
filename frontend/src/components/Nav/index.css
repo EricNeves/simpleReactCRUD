@@ -1,0 +1,40 @@
+.navbar {
+  grid-area: nav;
+  background: var(--dark);
+  padding: 1rem;
+}
+
+.brand {
+  padding: 2rem 0;
+}
+
+.brand a {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: 1.6rem;
+  color: var(--light-secondary);
+}
+
+.brand span {
+  font-size: 1.2rem;
+}
+
+nav ul li {
+  height: 100%;
+  padding: .8rem 0;
+  margin-top: 1.4rem;
+}
+
+nav ul li a {
+  color: var(--light);
+  font-weight: 500;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--danger);
+}
