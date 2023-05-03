@@ -60,7 +60,7 @@ function Home() {
 
   useEffect(() => {
     axios.get(baseURL).then(res => setListUsers(res.data))
-  }, [listUsers])
+  }, [])
 
   return (
     <>
