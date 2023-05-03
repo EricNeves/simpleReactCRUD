@@ -10,5 +10,23 @@ A aplicação possui <b>2</b> diretórios, <b>backend e frontend</b>, no <b>back
 ![Recorder](.github/recorder.gif)
 ![Screenshot](.github/screenshotA.png)
 
-### Executando
+#### Executando 🤖
 
+```sh
+
+# Clone
+$ git clone https://github.com/EricNeves/simpleReactCRUD.git
+
+# Install Dependencies - Backend
+$ cd backend && npm install
+
+# Execute Backend
+$ npm start 
+
+# Install dependencies - Frontend
+$ cd backend && npm install
+
+# Execute Frontend
+$ npm start
+
+```
