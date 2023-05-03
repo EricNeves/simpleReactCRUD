@@ -1,3 +1,10 @@
 ![Logo](.github/favicon.ico)
 
-### Simple ReactJS CRUD
+### Simple ReactJS CRUD 🦉
+
+Esse sistema consiste em exemplificar a criação de um <b>CRUD</b> (<b>CREATE, READ, UPDATE & DELETE</b>) com <b>ReactJS</b>.
+
+A aplicação possui <b>2</b> diretórios, <b>backend e frontend</b>, no <b>backend</b> foi utilizado a biblioteca <a href="https://www.npmjs.com/package/json-server"><b>json-server</b></a> para <b>"simular"</b> uma <b>REST API</b>. Já no <b>frontend</b> por sua vez, foram utilizados <b>ReactJS</b>, <b>CSS</b>, <b>UseEffect</b>, para lidar com o ciclo de vida dos componentes, <a href="https://www.npmjs.com/package/react-router-dom"><b>react-router-dom</b></a>, <a href="https://axios-http.com/ptbr/docs/intro"><b>Axios</b></a>, e entre outros.
+
+
+
