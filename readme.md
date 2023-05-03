@@ -1,6 +1,6 @@
 ![Logo](.github/favicon.ico)
 
-### Simple ReactJS CRUD 🦉
+### Simple ReactJS CRUD 🦍
 
 Esse sistema consiste em exemplificar a criação de um <b>CRUD</b> (<b>CREATE, READ, UPDATE & DELETE</b>) com <b>ReactJS</b>.
 
@@ -30,3 +30,18 @@ $ cd backend && npm install
 $ npm start
 
 ```
+
+#### Ferramentas 👾
+
+* 🛸 Backend
+  * [json-server](https://www.npmjs.com/package/json-server)
+* 🔭 Frontend
+  * ReactJS
+  * CSS
+  * [axios](https://axios-http.com/ptbr/docs/intro)
+  * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+  * [react-icons](https://react-icons.github.io/react-icons/)
+
+#### Autor 👽
+
+* Eric Neves
