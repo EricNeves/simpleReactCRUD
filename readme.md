@@ -1,6 +1,6 @@
 ![Logo](.github/favicon.ico)
 
-### Simple ReactJS CRUD 🦍
+### Simple ReactJS CRUD 🦜
 
 ![Commit](https://img.shields.io/github/last-commit/ericneves/simpleReactCRUD?color=success&logo=appveyor&logoColor=success&style=flat-square)
 ![License](https://img.shields.io/github/license/ericneves/simplereactcrud?color=orange&logo=appveyor&logoColor=orange&style=flat-square)
@@ -27,7 +27,7 @@ $ cd backend && npm install
 $ npm start 
 
 # Install dependencies - Frontend
-$ cd backend && npm install
+$ cd frontend && npm install
 
 # Execute Frontend
 $ npm start
