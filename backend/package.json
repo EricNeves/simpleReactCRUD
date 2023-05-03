@@ -7,7 +7,7 @@
     "start": "json-server --watch db.json --port 3030"
   },
   "keywords": [],
-  "author": "Eric Neves",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.3"
