@@ -3,7 +3,7 @@
 :root {
   --dark: #18181B;
   --dark-secondary: #1F2F3A;
-  --light: #f5f5f5;
+  --light: #ffffff;
   --light-secondary: #abecd6;
   --gray: #dddddd;
   --success: #12b45b;
@@ -31,8 +31,65 @@ body {
   display: grid;
   grid-template-columns: 20rem 1fr;
   grid-template-rows: 5rem 1fr 60px;
-  grid-template-areas: 
-  "nav header"
-  "nav main"
-  "nav footer";
+  grid-template-areas:
+    "nav header"
+    "nav main"
+    "nav footer";
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbarMobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 70%;
+    z-index: 9;
+  }
+
+  #bar {
+    display: block !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .homeContent {
+    text-align: center;
+  }
+
+  .homeContent h1 {
+    font-size: 1.4rem;
+  }
+
+  .homeContent p span {
+    font-size: 1rem;
+  }
+
+  .homeContent h2 {
+    font-size: .9rem !important;
+  }
+}
+
+@media (max-width: 500px) {
+  form button {
+    padding: .4rem 1rem !important;
+  }
+
+  table thead th {
+    font-size: .9rem;
+  }
+
+  table tbody tr td {
+    font-size: .8rem;
+  }
 }

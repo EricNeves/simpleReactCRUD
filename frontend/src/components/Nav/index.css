@@ -4,6 +4,11 @@
   padding: 1rem;
 }
 
+.navbarMobile {
+  background: var(--dark);
+  padding: 1rem;
+}
+
 .brand {
   padding: 2rem 0;
 }
