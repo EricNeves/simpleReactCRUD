@@ -6,9 +6,9 @@
       "email": "john@example.com"
     },
     {
-      "id": 2,
       "username": "Ted",
-      "email": "ted@example.com"
+      "email": "ted@example.com",
+      "id": 2
     }
   ]
 }
