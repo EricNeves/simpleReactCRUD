@@ -1,0 +1,23 @@
+.homeContent h1 {
+  color: var(--dark-secondary);
+  font-weight: 500;
+}
+
+.homeContent p {
+  color: var(--dark);
+  opacity: .8;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.homeContent h2 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: var(--dark-secondary);
+  opacity: .9;
+}
+
+.homeContent h2 a {
+  color: var(--primary);
+  margin-left: .2rem;
+}

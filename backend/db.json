@@ -9,6 +9,11 @@
       "id": 2,
       "username": "Ted",
       "email": "ted@example.com"
+    },
+    {
+      "username": "Eric",
+      "email": "ericnevesr@gmail.com",
+      "id": 3
     }
   ]
 }

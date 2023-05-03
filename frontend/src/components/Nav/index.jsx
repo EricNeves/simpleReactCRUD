@@ -3,30 +3,31 @@ import "./index.css"
 import { 
   AiOutlineQq, AiFillHome, AiOutlineUsergroupAdd
 } from "react-icons/ai"
+import { Link } from "react-router-dom"
 
 function Navigation() {
   return (
     <div className="navbar">
       <div className="brand">
-        <a href="/">
+        <Link to="/">
           <AiOutlineQq />
           <span>Simple React CRUD</span>
-        </a>
+        </Link>
       </div>
 
       <nav>
         <ul>
           <li>
-            <a href="">
+            <Link to="/">
               <AiFillHome />
               <span>Home</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="">
+            <Link to="/users">
               <AiOutlineUsergroupAdd />
               <span>Users</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
