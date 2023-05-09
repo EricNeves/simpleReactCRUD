@@ -3,7 +3,7 @@
 ### Simple ReactJS CRUD 🦜
 
 ![Commit](https://img.shields.io/github/last-commit/ericneves/simpleReactCRUD?color=success&logo=appveyor&logoColor=success&style=flat-square)
-![License](https://img.shields.io/github/license/ericneves/simplereactcrud?color=blueviolet&logo=appveyor&logoColor=blueviolet&style=flat-square)
+![License](https://img.shields.io/github/license/ericneves/simplereactcrud?color=blue&logo=appveyor&logoColor=blue&style=flat-square)
 
 Esse sistema consiste em exemplificar a criação de um <b>CRUD</b> (<b>CREATE, READ, UPDATE & DELETE</b>) com <b>ReactJS</b>.
 
@@ -51,4 +51,4 @@ $ npm start
 
 #### Licença 📝
 
-![License](https://img.shields.io/github/license/ericneves/simplereactcrud?color=blueviolet&logo=appveyor&logoColor=blueviolet&style=flat-square)
+![License](https://img.shields.io/github/license/ericneves/simplereactcrud?color=blue&logo=appveyor&logoColor=blue&style=flat-square)
